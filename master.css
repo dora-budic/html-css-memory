@@ -32,7 +32,6 @@ header {
   background-image: url('./img/pattern.png');
   background-size: contain;
   text-align: center;
-  color: #E61986;
 }
 
 .tile.two {
@@ -61,14 +60,23 @@ img {
   top: 10px;
 }
 
+.start-picture {
+  display: block;
+  height: 100%;
+  background: #fff;
+  color: #E61986;
+  border-radius: 10px;
+}
+
 .picture {
   display: none;
 }
 
 .tile:hover {
-  background: white;
+  background: #fff;
 }
 
 .tile:hover .picture {
   display: block;
+  color: #E67919;
 }
