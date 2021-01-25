@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 860px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.tile.two {
+  top:0;
+  left: 220px;
+}
+
+.tile.three {
+  top:0;
+  left: 440px;
+}
+
+.tile.four {
+  top: 0;
+  right:0;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
