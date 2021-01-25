@@ -27,9 +27,12 @@ header {
 .tile {
   width: 200px;
   height: 200px;
-  background-color: green;
   border-radius: 10px;
   position: absolute;
+  background-image: url('./img/pattern.png');
+  background-size: contain;
+  text-align: center;
+  color: #E61986;
 }
 
 .tile.two {
@@ -50,4 +53,22 @@ header {
 footer {
   text-align: center;
   margin-bottom: 20px;
+}
+
+img {
+  height: 150px;
+  position: relative;
+  top: 10px;
+}
+
+.picture {
+  display: none;
+}
+
+.tile:hover {
+  background: white;
+}
+
+.tile:hover .picture {
+  display: block;
 }
