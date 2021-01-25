@@ -36,6 +36,7 @@ section > .row {
   width: 25%;
   padding: 0 10px;
   text-align: center;
+  position: relative;
 }
 
 .pattern {
@@ -43,6 +44,7 @@ section > .row {
   background-image: url('./img/pattern.png');
   background-size: contain;
   border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 footer {
@@ -55,11 +57,27 @@ footer {
   border-radius: 10px;
   background-color: white;
   color: #E61986;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
  }
 
-.picture img, .start-picture img {
+.picture img {
   height: 150px;
   padding-top: 10px;
+}
+
+.start-picture {
+  background-image: url('./img/noun_Tram_3134750.png');
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.tile h2 {
+  position: absolute;
+  bottom: 15px;
+  width: calc(100% - 20px);
 }
 
 .pattern .picture {
