@@ -55,8 +55,7 @@ footer {
 .bg-white {
   height: 200px;
   border-radius: 10px;
-  background-color: white;
-  color: #E61986;
+  background-color: #fff;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
  }
 
@@ -80,6 +79,30 @@ footer {
   width: calc(100% - 20px);
 }
 
+.c-pink {
+  color: #E61986;
+}
+
+.c-orange {
+  color: #E67919;
+}
+
+.c-blue {
+  color: #3543D5;
+}
+
+.c-yellow {
+  color: #F3F30A;
+}
+
+.c-green {
+  color: #1DC20D;
+}
+
+.c-brown {
+  color: #845C06;
+}
+
 .pattern .picture {
   display: none;
 }
@@ -90,5 +113,4 @@ footer {
 
 .pattern:hover .picture {
   display: block;
-  color: #E67919;
 }
